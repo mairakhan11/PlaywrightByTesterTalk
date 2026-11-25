@@ -1,0 +1,15 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+/auth.json
+
+# Local secrets and validation artifacts
+.env
+.env.*
+!.env.example
+.tsupgrader/
